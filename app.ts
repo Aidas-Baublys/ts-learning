@@ -1,7 +1,4 @@
-type Param = "Suka" | "Kurwa" | "Bybys";
+let input: unknown;
+let nameA: string;
 
-function foo(param: () => string): void {
-  console.log(param());
-}
-
-foo(() => "Suka");
+nameA = input as string;
