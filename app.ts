@@ -1,14 +1,7 @@
-enum Role {
-  ADMIN = 1,
-  READ_ONLY,
-  DUCHAS,
+type Param = "Suka" | "Kurwa" | "Bybys";
+
+function foo(param: () => string): void {
+  console.log(param());
 }
 
-const person = {
-  name: "Duchas",
-  age: 13,
-  hobbies: ["Kurwos", "Narkata"],
-  role: Role.ADMIN,
-};
-
-console.log(Role.READ_ONLY);
+foo(() => "Suka");
