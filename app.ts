@@ -1,5 +1,7 @@
-const add = (n1: number, n2: number): number => {
-  return n1 + n2;
+const person = {
+  name: "Duchas",
+  age: 13,
+  hobbies: ["Kurwos", "Narkata"],
 };
 
-add(12, 12);
+console.log(person);
