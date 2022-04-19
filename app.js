@@ -1,3 +1,2 @@
-var input;
-var nameA;
-nameA = input;
+"use strict";
+console.log("Kurwa");
